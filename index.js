@@ -1407,7 +1407,7 @@ function Joystick(callback) {
         for(var i in divs) {
             var p = pos[divs[i].getAttribute("name")];
             apply_design(divs[i], {
-                background: "rgba(255,255,255,0.1)",
+                background: "rgb(255,255,255,0.7)",
                 position: "absolute", left: p.x,
                 top: p.y, width: p.w+"px", height: p.h+"px",
                 borderRadius: "10px", border: "1px solid black",
@@ -1434,7 +1434,7 @@ function Joystick(callback) {
                     resume();
                     change_div.style.background = "#000";
                     for(var i in divs)
-                        divs[i].style.background = "rgba(255,255,255,0.1)";
+                        divs[i].style.background = "rgb(255,255,255,0.7)";
                 }
             }
         };
@@ -3915,7 +3915,7 @@ function Joystick(callback) {
         for(var i in divs) {
             var p = pos[divs[i].getAttribute("name")];
             apply_design(divs[i], {
-                background: "rgba(255,255,255,0.1)",
+                background: "rgb(255,255,255,0.7)",
                 position: "absolute", left: p.x,
                 top: p.y, width: p.w+"px", height: p.h+"px",
                 borderRadius: "10px", border: "1px solid black",
@@ -3942,7 +3942,7 @@ function Joystick(callback) {
                     resume();
                     change_div.style.background = "#000";
                     for(var i in divs)
-                        divs[i].style.background = "rgba(255,255,255,0.1)";
+                        divs[i].style.background = "rgb(255,255,255,0.7)";
                 }
             }
         };
@@ -6423,7 +6423,7 @@ function Joystick(callback) {
         for(var i in divs) {
             var p = pos[divs[i].getAttribute("name")];
             apply_design(divs[i], {
-                background: "rgba(255,255,255,0.1)",
+                background: "rgb(255,255,255,0.7)",
                 position: "absolute", left: p.x,
                 top: p.y, width: p.w+"px", height: p.h+"px",
                 borderRadius: "10px", border: "1px solid black",
@@ -6450,7 +6450,7 @@ function Joystick(callback) {
                     resume();
                     change_div.style.background = "#000";
                     for(var i in divs)
-                        divs[i].style.background = "rgba(255,255,255,0.1)";
+                        divs[i].style.background = "rgb(255,255,255,0.7)";
                 }
             }
         };
