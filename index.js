@@ -2284,7 +2284,7 @@ var init_map = function(map) {
     map.data.solid_tiles = [1,2,3,4];
     map.enemy_tile = 9;
     var img = new Image();
-    img.src = "https://i.imgur.com/epSeAdJ.jpg";
+    // img.src = "https://i.imgur.com/epSeAdJ.jpg";
     map.background_img = img;
 };
 
@@ -4792,7 +4792,7 @@ var init_map = function(map) {
     map.data.solid_tiles = [1,2,3,4];
     map.enemy_tile = 9;
     var img = new Image();
-    img.src = "https://i.imgur.com/epSeAdJ.jpg";
+    // img.src = "https://i.imgur.com/epSeAdJ.jpg";
     map.background_img = img;
 };
 
@@ -7300,7 +7300,7 @@ var init_map = function(map) {
     map.data.solid_tiles = [1,2,3,4];
     map.enemy_tile = 9;
     var img = new Image();
-    img.src = "https://i.imgur.com/epSeAdJ.jpg";
+    // img.src = "https://i.imgur.com/epSeAdJ.jpg";
     map.background_img = img;
 };
 
@@ -7515,4 +7515,5 @@ for(var y = 0; y < 1024; y+=64) {
 /**************************************************************/
 // var print = function(o) {console.log(JSON.stringify(o));};
 // }
+
 /**************************************************************/
